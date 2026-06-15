@@ -4,6 +4,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(203, 203, 203, 0.645);
 }
 
 .left-section {
@@ -40,6 +50,7 @@
   border-style: solid;
   border-radius: 2px;
   box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.302);
+  width: 0;
 }
 
 .search-bar::placeholder {
@@ -78,6 +89,27 @@
 }
 
 .right-section {
-  background-color: lightblue;
-  width: 150px;
+  width: 200px;
+  margin-right: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.upload-icon {
+  height: 25px;
+}
+
+.youtube-apps-icon {
+  height: 25px;
+}
+
+.notifications-icon {
+  height: 25px;
+}
+
+.current-user-picture {
+  height: 32px;
+  border-radius: 16px;
 }
