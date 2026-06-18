@@ -12,7 +12,7 @@
   /* botom is text in bellow video */
 .paragraf {
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
@@ -28,9 +28,6 @@
   margin-bottom: 4px;
 }
 
-.channel-info {
-}
-
 /* batas text mungkin */
 /* bawah video dan profile */
 
@@ -39,12 +36,12 @@
 }
 
 .profile-picture {
-  width: 40px;
+  width: 36px;
   border-radius: 30px;
 }
 
 .thumbnile-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
 }
 
@@ -53,6 +50,11 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 17px;
   row-gap: 42px;
+}
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .video-time {
